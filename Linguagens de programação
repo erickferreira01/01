@@ -1,0 +1,36 @@
+C e C++ são duas linguagens de programação distintas, embora C++ tenha sido desenvolvido como uma extensão da linguagem C, uma vez que essas diferenças tornam C++ mais adequado para projetos grandes e complexos que se beneficiam de abstrações e modularidade, enquanto C pode ser preferido para projetos onde a simplicidade, o desempenho e o controle detalhado sobre o hardware são prioridades. Já Python, uma linguagem que possui uma vasta coleção de bibliotecas e frameworks para quase todas as necessidades imagináveis, e C são duas linguagens de programação com características bastante distintas. Entretanto,  C é frequentemente escolhido por seu desempenho e controle detalhado sobre o hardware, enquanto Python é preferido por sua simplicidade e produtividade no desenvolvimento.
+
+Python
+print("hello world")
+
+C++
+#include <iostream>
+
+int main() {
+    int num1 = 7, num2 = 5, sum;
+
+    // Calcula a soma
+    sum = num1 + num2;
+
+    // Exibe o resultado da soma
+    std::cout << "A soma é: " << sum << std::endl;
+
+    return 0;
+}
+
+C
+#include <stdio.h>
+
+int main() {
+    
+    int numero1 = 5;
+    int numero2 = 2;
+
+
+    int resultado = numero1 * numero2;
+
+    
+    printf("O resultado da multiplicação é: %d\n", resultado);
+
+    return 0;
+}
